@@ -1,3 +1,139 @@
 body {
+  color: #2b283a;
+  font-family: "IBM Plex Serif", serif;
+  margin: 0px;
   background-color: #ffffff;
+}
+
+.hptxt,
+.htxt {
+  font-weight: bold;
+  margin: 0px;
+}
+
+.hptxt {
+  color: #d0aaff;
+  font-size: larger;
+}
+
+.htxt {
+  color: whitesmoke;
+  font-size: 40px;
+}
+
+header {
+  padding: 4% 10%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3px;
+  background-color: #5f29a3;
+}
+
+.sneakimg {
+  width: 80%;
+  background-size: cover;
+}
+
+.shtxt {
+  margin-top: 2%;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.strptxt {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.sptxt {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.clink {
+  color: red;
+  text-decoration: underline red;
+}
+
+.fst {
+  margin-bottom: 2%;
+  padding: 2% 10%;
+  height: 100%;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.l1,
+.l2 {
+  font-weight: bolder;
+  font-size: large;
+  margin: 0px 3px;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.l1 {
+  text-shadow: #2b283a;
+  background-color: blueviolet;
+  color: whitesmoke;
+}
+
+.l2 {
+  text-shadow: whitesmoke;
+  color: #5f29a3;
+  background-color: lightgrey;
+}
+
+.cpimg,
+.bagimg {
+  width: 50%;
+  background-size: cover;
+}
+
+.images {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5%;
+}
+
+.sst {
+  background-color: blueviolet;
+  color: whitesmoke;
+  padding: 2% 10%;
+  height: 100%;
+}
+
+.ll1,
+.ll2 {
+  font-weight: bolder;
+  font-size: large;
+  margin: 0px 3px;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.ll1,
+.ll2 {
+  text-shadow: whitesmoke;
+  color: #5f29a3;
+  background-color: lightgrey;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  color: #5f29a3;
+  height: 10vh;
 }
