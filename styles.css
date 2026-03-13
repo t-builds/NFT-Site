@@ -123,7 +123,7 @@ body {
   gap: 5%;
 }
 
-/* header */
+/* Layout */
 
 header {
   padding: 4% 10%;
@@ -152,8 +152,6 @@ header {
   padding: 2% 10%;
   height: 100%;
 }
-
-/* footer */
 
 footer {
   display: flex;
