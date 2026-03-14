@@ -158,6 +158,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: larger;
   font-weight: bolder;
   color: #5f29a3;
   height: 10vh;
