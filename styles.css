@@ -112,6 +112,7 @@ body {
 
 .cpimg,
 .bagimg {
+  border-radius: 4.6px;
   width: 50%;
   background-size: cover;
 }
