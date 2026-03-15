@@ -43,17 +43,18 @@ body {
 
 /* Links */
 
-.clink {
+#clink {
   color: #ef5839;
   text-decoration: underline double;
 }
 
-.clink:hover {
+#clink:hover {
   color: #d4b44c;
+  background-color: transparent;
   text-decoration: none;
 }
 
-.clink:active {
+#clink:active {
   color: blue;
   text-decoration: underline;
 }
