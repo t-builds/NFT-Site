@@ -43,6 +43,11 @@ body {
 
 /* Links */
 
+a {
+  margin: 2px 5px;
+  display: inline-block;
+}
+
 #clink {
   color: #ef5839;
   text-decoration: underline double;
@@ -59,17 +64,10 @@ body {
   text-decoration: underline;
 }
 
-.links {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-
 .l1,
 .l2 {
   font-weight: bolder;
   font-size: large;
-  margin: 0px 3px;
   text-decoration: none;
   padding: 8px 16px;
   border-radius: 4px;
@@ -100,7 +98,6 @@ a:active {
 .lls {
   font-weight: bolder;
   font-size: large;
-  margin: 0px 3px;
   text-decoration: none;
   padding: 8px 16px;
   border-radius: 4px;
