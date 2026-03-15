@@ -97,19 +97,14 @@ a:active {
   background-color: #f0e0ff;
 }
 
-.ll1,
-.ll2 {
+.lls {
   font-weight: bolder;
   font-size: large;
   margin: 0px 3px;
   text-decoration: none;
   padding: 8px 16px;
   border-radius: 4px;
-}
-
-.ll1,
-.ll2 {
-  text-shadow: whitesmoke;
+  text-shadow: #f0e0ff;
   color: #5f29a3;
   background-color: whitesmoke;
 }
