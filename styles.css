@@ -39,6 +39,7 @@ body {
 .sptxt {
   font-size: larger;
   font-weight: bold;
+  line-height: 1.5;
 }
 
 /* Links */
